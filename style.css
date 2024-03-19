@@ -1,6 +1,4 @@
-body{
-    zoom: 65%;
-}
+
 .container{
     display: grid;
     grid-template-columns: minmax(50px,1fr) 5fr;
