@@ -1,0 +1,148 @@
+body{
+    zoom: 65%;
+}
+.container{
+    display: grid;
+    grid-template-columns: minmax(50px,1fr) 5fr;
+    
+}
+.dashboard-container{
+    display: grid;
+    grid-template-rows: 150px 1.25fr 3fr;
+    color: white;
+    background-color:rgb(41, 144, 170);
+    
+    font-weight: bold;
+    
+}
+.logo{
+    display: grid;
+    grid-template-columns: .5fr 1.5fr;
+    place-items: center;
+    
+}
+.logo h1{
+    justify-self: start;
+}
+.home,.settings{
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: .5fr 1.5fr;
+    place-items: center;
+    
+    
+}
+.home img,.settings img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.home div,.settings div{
+    justify-self: start;
+}
+.settings{
+    align-content: start;
+    row-gap: 25px;
+    margin-top: 50px;
+}
+.card{
+    height: 300px;
+    width: 300px;
+    background-color: burlywood;
+}
+.ui-container{
+    display: grid;
+    grid-template-rows: 200px 4fr;
+}
+a img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.mini-profile{
+    display: grid;
+    grid-template-columns: .5fr repeat(6,1fr);
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
+.mini-profile h3{
+    letter-spacing: 2px;
+    justify-self: center;
+}
+a[href="#"]{
+    display: grid;
+    justify-self: center;
+}
+img[src="./imgs/odin.png"]{
+    height: 4rem;
+    width: 4rem;
+    justify-self: center;
+}
+img[src="./imgs/icons8-alert-50.png"]{
+    height: 2rem;
+    width: 2rem;
+    justify-self: end;
+}
+ img[src="./imgs/icons8-search-50.png"]{
+    justify-self: end;
+    height: 2rem;
+    width: 2rem;
+    padding-right: 20px;
+}
+input{
+    background-color: grey;
+    color: white;
+    grid-column: 2/5;
+    border-radius: 8px;
+    height: 30px;
+}
+::placeholder{
+    color: white;
+}
+img[alt="odin-logo-large"]{
+    height: 6rem;
+    width: 6rem;
+    justify-self: center;
+}
+.profile{
+    display: grid;
+    background-color: beige;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+.cards{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.announcements{
+    display: grid;
+    grid-template-rows: 50px 1fr 50px 1fr;
+    gap: 50px;
+}
+.announcement{
+    height: 400px;
+    width: 300px;
+    background-color: aqua;
+   
+    
+    
+}
+.trending{
+    height: 300px;
+    width: 300px;
+    background-color: bisque;
+   
+    
+}
+button{
+    border-radius: 20px;
+    background-color: rgb(23, 139, 206);
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    color: white;
+    margin: 20px;
+}
+button.first{
+    grid-column: 5/6;
+}
